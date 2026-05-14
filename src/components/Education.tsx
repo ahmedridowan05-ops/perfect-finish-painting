@@ -110,34 +110,34 @@ export default function Education() {
           <motion.div variants={itemVariants} className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-8 backdrop-blur-md">
             <CloudRain size={24} />
           </motion.div>
-          <motion.h3 variants={itemVariants} className="text-xl font-bold mb-6 uppercase tracking-tight">2. Battling Galway’s <br />Unforgiving Weather</motion.h3>
+          <motion.h3 variants={itemVariants} className="text-xl font-bold mb-6 uppercase tracking-tight">2. Built for <br />New Builds</motion.h3>
           <motion.p variants={itemVariants} className="text-white/60 mb-8 leading-relaxed text-xs">
-            Exterior painting in Galway is your home's primary defense against Atlantic wind, rain, and salt air. A standard "wash and paint" will fail.
+            New-build interiors need a different approach than occupied homes. Fresh plaster, open layouts, and large surfaces make spray finishing ideal for speed, consistency, and long-term finish quality.
           </motion.p>
           
           <div className="space-y-4 mt-auto">
               <motion.div variants={itemVariants} className="bg-white/5 p-5 rounded-2xl border border-white/10 backdrop-blur-sm">
                 <h4 className="font-bold mb-1 flex items-center gap-2 text-[10px] uppercase tracking-widest text-[#D4AF37]">
                    <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]" />
-                  Eradicating Moisture
+                  Designed For Fresh Plaster
                 </h4>
                 <p className="text-[11px] text-white/50 leading-relaxed">
-                  We don't just paint over green staining. We treat masonry to kill algae at the root, ensuring it doesn't bleed through the new coat.
+                  A proper Phase 1 spray system helps seal and protect fresh plaster early, creating a cleaner foundation before the final colours ever go on.
                 </p>
               </motion.div>
               <motion.div variants={itemVariants} className="bg-white/5 p-5 rounded-2xl border border-white/10 backdrop-blur-sm">
                 <h4 className="font-bold mb-1 flex items-center gap-2 text-[10px] uppercase tracking-widest text-[#D4AF37]">
                    <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]" />
-                  Weather Shielding
+                  Built For Open Spaces
                 </h4>
                 <p className="text-[11px] text-white/50 leading-relaxed">
-                  We exclusively use elastomeric coatings that flex with the building and repel heavy, wind driven rain while allowing walls to breathe.
+                  Large ceilings, open-plan layouts, and full-house coverage can be finished faster and more evenly with professional spray systems.
                 </p>
               </motion.div>
             </div>
             
             <motion.div variants={itemVariants} className="mt-8 pt-6 border-t border-white/10 italic text-white/30 text-[10px]">
-              We stabilize powdery render mechanically before applying specialized primers for an unbreakable bond.
+              The right system early on is what gives a new home that clean, high-end finish people notice immediately.
             </motion.div>
           </motion.div>
 

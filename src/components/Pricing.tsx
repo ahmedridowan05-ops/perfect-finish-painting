@@ -3,39 +3,39 @@ import { Timer, Palette, Paintbrush, Maximize, Droplets, Camera, Calendar, Arrow
 
 export default function Pricing() {
   const averages = [
-    { label: "1 Bedroom", price: "€450 – €650" },
-    { label: "2 Bed Apartment", price: "€1,800 – €2,800" },
-    { label: "3 Bed House", price: "€3,000 – €4,500" },
-    { label: "4 Bed House", price: "€4,000 – €6,000+" },
-  ];
+  { label: "Standard New Build", price: "€14–€15/m²" },
+  { label: "High Ceilings / Extra Prep", price: "€16–€18/m²" },
+  { label: "Typical Project Budget", price: "€3,000–€5,000" },
+  { label: "Larger Projects", price: "€5,000+" },
+];
 
   const variables = [
-    {
-      title: "The Preparation",
-      description: "Filling cracks, sanding walls, and treating mould takes time. More intensive prep guarantees a vastly superior finish.",
-      icon: <Timer size={24} />
-    },
-    {
-      title: "Colour Transformations",
-      description: "Going from dark to bright requires extra coats and materials. Refreshing same colours is faster.",
-      icon: <Palette size={24} />
-    },
-    {
-      title: "Woodwork & Details",
-      description: "Skirting boards, doors, and window frames take significantly longer than straightforward walls.",
-      icon: <Paintbrush size={24} />
-    },
-    {
-      title: "Layout & Size",
-      description: "Smaller rooms or tight spaces require detailed 'cutting in', which matters as much as total square footage.",
-      icon: <Maximize size={24} />
-    },
-    {
-      title: "Paint Quality",
-      description: "Upgrading to premium, washable finishes (e.g., Dulux) or designer brands requires a higher upfront cost for longevity.",
-      icon: <Droplets size={24} />
-    }
-  ];
+  {
+    title: "Surface Preparation",
+    description: "Fresh plaster, sanding, filling, and surface condition all affect preparation time before spraying begins. Proper prep is what creates the smooth, long-lasting finish people actually notice years later.",
+    icon: <Timer size={24} />
+  },
+  {
+    title: "Ceiling Height & Access",
+    description: "High ceilings, stairwells, vaulted spaces, and open-plan areas require additional setup and specialised spray equipment. The result is a cleaner, more even finish across the entire home.",
+    icon: <Maximize size={24} />
+  },
+  {
+    title: "Masking & Protection",
+    description: "Floors, windows, kitchens, sockets, and detailed areas must be carefully protected before spraying starts. Proper masking is what allows a fast spray process without sacrificing precision.",
+    icon: <Camera size={24} />
+  },
+  {
+    title: "Layout & Size",
+    description: "The size of the property, room layout, and openness of the space all affect production time. Larger open-plan homes are ideal for spray finishing and often achieve the cleanest overall result.",
+    icon: <Maximize size={24} />
+  },
+  {
+    title: "Paint & Primer System",
+    description: "Different primers, ceiling coats, and wall systems affect both durability and final appearance. Using the correct system helps protect the surfaces now while preparing the home for its final finish later.",
+    icon: <Droplets size={24} />
+  }
+];
 
   return (
     <div className="max-w-7xl mx-auto px-6">
@@ -56,7 +56,7 @@ export default function Pricing() {
            whileInView={{ opacity: 1 }}
            className="max-w-md text-stone-400 font-medium text-base leading-relaxed"
         >
-          What a Proper Finish Actually Costs. Realistic 2026 investment price ranges. Note: These represent average min-max ranges based on project complexity.
+          Realistic Phase 1 interior spray finishing price ranges for new-build homes. Final pricing depends on ceiling height, surface preparation, property layout, and total square meter coverage.
         </motion.p>
       </div>
 

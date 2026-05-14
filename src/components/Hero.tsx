@@ -73,9 +73,9 @@ export default function Hero() {
               }}
               className="text-5xl md:text-6xl lg:text-8xl font-black leading-[1.05] tracking-tighter uppercase"
             >
-              High Quality <br />
+              Interior Painting <br />
               <span className="text-[#0A1128]/85 [text-shadow:2px_0_#fff,-2px_0_#fff,0_2px_#fff,0_-2px_#fff,1px_1px_#fff,-1px_-1px_#fff,1px_-1px_#fff,-1px_1px_#fff] drop-shadow-[0_0_15px_rgba(255,255,255,0.6)]">
-                Painting in Galway
+                Done Properly
               </span>
             </motion.h1>
           </div>
